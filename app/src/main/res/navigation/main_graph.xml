@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/subscriberListFragment">
+
+    <fragment
+        android:id="@+id/subscriberListFragment"
+        android:name="br.eng.pedro_mendes.mysubscribers.ui.subscriber_list.SubscriberListFragment"
+        android:label="@string/subscriber_list_title"
+        tools:layout="@layout/fragment_subscriber_list">
+
+        <action
+            android:id="@+id/action_subscriberListFragment_to_subscriberFragment"
+            app:destination="@id/subscriberFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/subscriberFragment"
+        android:name="br.eng.pedro_mendes.mysubscribers.ui.subscriber.SubscriberFragment"
+        android:label="@string/subscriber_title"
+        tools:layout="@layout/fragment_subscriber">
+        <argument
+            android:name="subscriber"
+            android:defaultValue="@null"
+            app:argType="br.eng.pedro_mendes.mysubscribers.data.db.entities.SubscriberEntity"
+            app:nullable="true" />
+    </fragment>
+</navigation>
