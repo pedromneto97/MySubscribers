@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">MySubscribers</string>
+    <string name="subscriber_title">Inscritos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="save">Salvar</string>
+    <string name="subscriber_list_title">Inscritos</string>
+    <string name="subscriber_list_menu_delete">Excluir tudo</string>
+    <string name="subscriber_updated_successfully">Inscrito atualizado com sucesso</string>
+    <string name="subscriber_update_error">Não foi possível atualizar o inscrito</string>
+    <string name="subscriber_created_successfully">Inscrito criado com sucesso</string>
+    <string name="subscriber_creation_failed">Não foi possível criar um novo inscrito</string>
+    <string name="subscriber_deleted_successfully">Inscrito removido com sucesso</string>
+    <string name="subscriber_deletion_failed">Não foi possível remover o inscrito</string>
+    <string name="update">Atualizar</string>
+    <string name="delete">Apagar</string>
 </resources>
